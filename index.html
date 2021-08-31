@@ -4,7 +4,8 @@
         <div id="time">aaa </div>
     </body> 
     <script>
-        var time ="11:46";
+        var today = new Date();
+        var time = today.getHours(); 
         var timediv = document.getElementById("time");
         timediv.innerHTML = time;
     </script>
